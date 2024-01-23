@@ -20,7 +20,7 @@
         <?php echo $paragraph;?>
     </h2>
     <div>
-        La lunghezza del paragrafo è: <?php echo strlen($paragraph." ".$word);?>
+        La lunghezza del paragrafo è: <?php echo strlen($paragraph);?>
     </div>
     <h2>
         <?php echo $new_paragraph;?>
