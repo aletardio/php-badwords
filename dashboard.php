@@ -2,7 +2,6 @@
     $paragraph = $_GET['paragraph'];
     $word = $_GET['word'];
 
-    strlen($paragraph." ".$word);
     $new_paragraph = str_replace($word, '***', $paragraph);
 
 ?>
