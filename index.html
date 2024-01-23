@@ -9,24 +9,22 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-6 p-4">
-                <form action="" method="get">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Inserisci un paragrafo</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="col-12">
+                <form action="dashboard.php" method="get">
+                    <div class="row">
+                        <div class="col-6 py-4">
+                            <label for="control-label" class="form-label">Inserisci un paragrafo</label>
+                            <input type="email" class="form-control" id="my_paragraph" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col-6 py-4">
+                            <label for="control-label" class="form-label">Inserisci una parola da censurare</label>
+                            <input type="email" class="form-control" id="my_paragraph" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col-12 py-1">
+                            <button type="submit" class="btn btn-sm btn-success">Invia</button>
+                        </div>
                     </div>
                 </form>
-            </div>
-            <div class="col-6 p-4">
-                <form action="" method="get">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Inserisci una parola da censurare</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                </form>
-            </div>
-            <div class="col-12 px-4">
-                <button type="submit" class="btn btn-sm btn-success">Invia</button>
             </div>
         </div>
     </div>
