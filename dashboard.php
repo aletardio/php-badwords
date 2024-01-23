@@ -3,7 +3,7 @@
     $word = $_GET['word'];
 
     strlen($paragraph." ".$word);
-    $new_word = str_replace($word, '***', $word);
+    $new_paragraph = str_replace($word, '***', $paragraph);
 
 ?>
 
@@ -23,10 +23,10 @@
         La lunghezza del paragrafo è: <?php echo strlen($paragraph." ".$word);?>
     </div>
     <h2>
-        <?php echo $paragraph." ".$new_word;?>
+        <?php echo $new_paragraph;?>
     </h2>
     <div>
-        La lunghezza del nuovo paragrafo è: <?php echo strlen($paragraph);?>
+        La lunghezza del nuovo paragrafo è: <?php echo strlen($new_paragraph);?>
     </div>
 </body>
 </html>
